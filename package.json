@@ -1,0 +1,22 @@
+{
+  "name": "invoiceforge-generator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Client-side invoice generator with live preview, tax/discount math, PDF export via print, and localStorage-saved invoices.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
